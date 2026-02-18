@@ -105,16 +105,16 @@ class ScaffoldWithBottomNav extends StatelessWidget {
           },
           items: const [
             BottomNavigationBarItem(
-              icon: Icon(Icons.home),
+              icon: Icon(Icons.home_rounded),
               label: 'Home',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.bar_chart),
+              icon: Icon(Icons.analytics_rounded),
               label: 'Stats',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.settings),
-              label: 'Settings',
+              icon: Icon(Icons.person_rounded),
+              label: 'Profile',
             ),
           ],
         ),
